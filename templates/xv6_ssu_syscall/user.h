@@ -24,7 +24,7 @@ char* sbrk(int);
 int sleep(int);
 int uptime(void);
 int getnice(int);
-void ps(int);
+void ps(void);
 int setnice(int, int);
 
 // ulib.c

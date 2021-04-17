@@ -120,7 +120,7 @@ void            userinit(void);
 int             wait(void);
 void            wakeup(void*);
 void            yield(void);
-void		ps(int pid);
+void		ps(void);
 int		getnice(int);
 int		setnice(int, int);
 // swtch.S

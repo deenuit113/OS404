@@ -184,8 +184,7 @@ UPROGS=\
 	$U/_usertests\
 	$U/_wc\
 	$U/_ps\
-	$U/_setnice\
-	$U/_getnice\
+	$U/_test_nice\
 	$U/_zombie\
 
 
