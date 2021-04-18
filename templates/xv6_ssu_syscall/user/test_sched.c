@@ -28,7 +28,7 @@ int main(int argc, char **argv)
 		pid = fork();
 		if(pid == 0)
 		{
-			for(i=0l i<OUTER_LOOP; i++)
+			for(i=0; i<OUTER_LOOP; i++)
 			{
 				for(j=0; j<INNER_LOOP; j++)
 					dummy += PI*j;
